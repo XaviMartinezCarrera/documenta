@@ -1,0 +1,107 @@
+---
+title: "Mindset"
+---
+
+
+# AGILE
+
+* Planificar.
+* Ejecutar.
+* Revisar.
+* Reflexionar.
+
+
+# SCRUM
+
+* Inspección.
+* Adaptabilidad.
+* Transparencia.
+
+
+
+```{mermaid}
+flowchart LR
+  A[Conceptos Core] --> B(Microprogramación)
+  B --> C{Decision}
+  C --> D[Front End]
+  C --> E[Back End]
+```
+|
+|
+
+# Path (Front End Developer)
+
+
+*Objetivo:* aprender y dominar los lenguajes básicos del front end y encontrar trabajo de programador front end en una empresa multinacional, aunque no descarto empezar en una empresa pequeña.
+
+* También está ligado al marketing digital y al SEO. Es positivo tener conocimientos de HTML, CSS, JAVASCRIPT y diseño web.
+
+|
+|
+
+
+# Estrategia 6 meses
+
+![](imagenes/Roadmap.jpg){width=60%}
+
+| HTML | CSS | JavaScript | React | Java | SpringBoot | Git | Proyecto |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Dic 23 | Dic 23 | Dic 23 | Ene 24 | Dic 23 | Mar 24 | Ene 24 | Ene 24 |
+| Jul 24 | Jul 24 | Jul 24 | Jul 24 | Jul 24 | Jul 24 | Jul 24 | Jul 24 |
+|     |     |     |     |     |     |     |     |
+
+
+Los primeros 6 meses serán para aprender y asentar los conocimientos core de los lenguajes front y en menor medida los de back. También será necesario aprender sobre arquitectura, Git y bases de datos, y empezar a desarrollar mi proyecto personal:
+
+- Cursos Youtube.
+  
+- Curso CIFO La Violeta.
+  
+- Crear mi proyecto.
+  
+- Crear portfolio.
+  
+- Prácticas del curso (julio 2024).
+  
+- Métricas para compararme y observar mi evolución.
+  
+- Estar al día de herramientas informáticas.
+  
+- Mindset: planificación semanal de mis tareas, no desesperarme, ser positivo, copiar proyectos para aprender.
+  
+
+|
+|
+
+# Estrategia 2 años
+
+![](imagenes/Roadmap2.png)
+
+| HTML | CSS | JavaScript | React | Java | SpringBoot | Git | Proyecto |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Dic 23 | Dic 23 | Dic 23 | Ene 24 | Dic 23 | Mar 24 | Ene 24 | Ene 24 |
+| Dic 25 | Dic 25 | Dic 25 | Dic 25 | Dic 25 | Dic 25 | Dic 25 | Dic 25 |
+|     |     |     |     |     |     |     |     |
+
+
+Pasados los primeros 6 meses será necesario seguir ampliando conocimientos, seguir practicando con los lenguajes básicos ya aprendidos y profundizar en temas relacionados (Tailwind, Bootstrap, SASS, Material UI, TypeScript, Firebase).
+
+- Más cursos Youtube.
+  
+- Posibilidad de hacer un Bootcamp.
+  
+- Posibilidad de realizar prácticas en el extranjero (Programa Erasmus Plus).
+  
+- Seguir desarrollando mi proyecto.
+  
+- Seguir desarrollando mi portfolio.
+  
+- Estar al día de herramientas informáticas.
+  
+- Mindset: planificación semanal de mis tareas, no desesperarme, ser positivo, copiar proyectos para aprender.
+  
+- Investigar empresas donde trabajen programadores.
+  
+- Estudiar ofertas de empleo (ver qué piden).
+  
+- Contactar con programadores profesionales y gente involucrada en el mundo de la programación.

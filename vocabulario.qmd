@@ -1,0 +1,74 @@
+---
+title: "Vocabulario"
+---
+
+
+| Nombre  | Definición  |
+|--------|--------|
+| GIT  | Sistema de gestión de versiones.   |
+| FORQUEAR   | Bifurcar / Variaciones de máster.   |
+| CRON | Herramienta de Linux para temporizar trabajo.   |
+| FLAMESHOT | Herramienta para pantallazos.|
+| UML | Lenguaje unificado de modelado.|
+| API REST | Transferencia de estado representacional.|
+| JPA | Java Persistence API.|
+| MVC | Modelo Vista Controlador. |
+| MAVEN | Gestor de dependencias de Java.|
+| NPM | Gestor de dependencias de JavaScript.|
+| TIMESHIFT | Para realizar copias de seguridad.|
+| G PARTED | Para realizar particiones.|
+| NEXT CLOUD | Para crear tu cloud personal.|
+| LATENCIA | Retardo.|
+| DDD | Diseñar pensando en dominios.|
+| MULTI-TIER ARCHITECTURE | Arquitectura multicapas.|
+| PATRONES DE DISEÑO | Soluciones habituales a problemas comunes en el diseño de software.|
+| PATTERN | La manera en la que se implementa la arquitecura (súper protocolo).|
+| GRADLE | Gestor de dependencias de Java.|
+| MERMAID | Herramienta para crear UMLs.|
+| JAVA HIPSTER | Software que crear todo automáticamente.|
+| LOMBOK | Simplifica las clases de Java.|
+| JDK | Java Development Kit.|
+| JRE | Java Runtime Environment.|
+| CI CD | Continuous Integration and Continuous Delivery / Continuous Deployment.|
+| PIPELINE | Grupo de procesos automatizados que permite compilar, buildear y desplegar código a sus plataformas de producción.|
+| NETLIFY | Publicador de webs.|
+| WORKING DIRECTORY | Archivos y carpetas en local, la carpeta que abres en el editor de código.|
+| AGILE | Conjunto de técnicas aplicadas en ciclos de trabajo cortos, con el objetivo de que el proceso de entrega de un proyecto sea más eficiente.|
+| SCRUM | Marco de gestión de proyectos. Sprint planning, daily scrum, sprint review, sprint retrospective y sprint grooming o refinement.|
+| DEVOPS | Software development and operations.|
+| INMUTABILIDAD | Objeto cuyo estado no puede ser modificado una vez creado.|
+| BASH | Bourne Again Shell.|
+| HTML | Hypertext Markup Language.|
+| CSS | Cascading Style Sheets.|
+| PANDOC | Conversor de documentos libre y de código abierto.|
+| SNAPSHOT | Copia o instantánea del estado actual de los datos de tu servidor.|
+| CLI | Command-Line Interface.|
+| HASHMAP | Estructuras de datos donde los valores se insertan indexados por una clave, y se accede a ellos a través de la misma clave.|
+| MOCK UP | Montaje que simula el resultado de un producto y que sirve para obtener la aprobación del cliente o consumidor final.|
+| SCOPE | Ámbito, contexto que pertenece a un nombre dentro de un programa.|
+| JSX (REACT) | Mezcla entre HTML y JavaScript.|
+| JSON | JavaScript Object Notation.|
+| NVM | Node Version Manager.|
+| NODE | Motor de JavaScript.|
+| NPX | Comando para crear un proyecto React.|
+| HOOK (REACT) | Para gestionar los estados.|
+| ENTIDAD | La expresión del dato según el contexto.|
+| PARSING | Transformador de formatos, analizar y convertir un programa en un formato interno que un entorno de ejecución pueda realmente ejecutar.|
+| DRY | Don't Repeat Yourself.|
+| DEBUG | Proceso de detección de fallos de software.|
+| JUNIT | Framework open spurce para la automatización de las pruebas (tanto unitarias, como de inegración) en los proyectos software.|
+| JAVA FAKER | Librería usada para generar fake data.|
+| TDD | Test-Driven Development.|
+| CRUD | Create-Read-Update-Delete.|
+| APT | Advanced Packaging Tool.|
+| PSEUDOCÓDIGO | Forma de representar código, como algoritmos, funciones y otros procesos, utilizando una combinación de lenguaje natural y elementos similares al lenguaje de programación.|
+| AXIOS | Librería de JavaScript que se utiliza para hacer solicitudes HTTP desde el navegador o desde un servidor usando Node.js.|
+| CASTING (JAVA) | Convertir un tipo de variable a otro.|
+| DESACOPLAR | Separar al máximo el ćodigo.|
+| HASH (GIT) | ID de un commit.|
+| WRAPPER | Programas o códigos que rodean otros componentes de programa.|
+| DEUDA TÉCNICA | Trabajo de producto diferido, a menudo como consecuencia de decisiones tomadas por los desarrolladores para favorecer la rapidez en detrimento de la calidad.|
+| JENKINS | Herramienta para crear pipelines.|
+
+
+: {.striped .hover}

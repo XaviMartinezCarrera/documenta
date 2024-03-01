@@ -1,0 +1,54 @@
+---
+title: "Proyecto Personal"
+---
+
+# App para Músicos (Ideas)
+
+| Músicos que buscan grupo para tocar.
+| Grupos que buscan músicos.
+| Crear tu propio perfil de músico.
+| Búsqueda por estilo musical.
+| Búsqueda por instrumento.
+| Búsqueda geográfica.
+
+# Introducción
+
+Aplicación enfocada al mundo de la música, cuyo objetivo es facilitar el proceso de poner en contacto a músicos con grupos. Las relaciones se establecen en base a ubicación, intereses musicales y objetivos. Fomenta la creación de bandas musicales mediante búsquedas personalizadas y tablón de anuncios.
+
+# Modelo
+
+Modelo de la app. Músicos, grupos y relaciones u objetivos que se establecen entre ellos.
+
+| Músico  | Grupo  |
+|--------|--------|
+| Nombre  | Nombre   |
+| Edad   | Edad de los componentes   |
+| Población | Población  |
+| Instrumentos/s que toca | Estilo musical |
+| Estilo musical | ¿Qué músico busca? |
+| Influencias / Grupos de referencia | Objetivos |
+| Nivel musical | Lugar de ensayo |
+| Objetivos | |
+
+| Posibles relaciones  |
+|--------|
+| Músico busca grupo  |
+| Grupo busca músico   |
+| Músico busca músico |
+| Grupo busca grupo |
+
+# Diagrama de caso de uso
+
+```{mermaid}
+flowchart LR
+  A(Músico o Grupo) --> B(Iniciar sesión)
+  B --> C(Buscar grupo)
+  C --> D(Enviar mensaje)
+  B --> E(Buscar músico)
+  E --> F(Enviar mensaje)
+  B --> G(Crear publicación)
+  B --> H(Comentar publicación)
+  B --> I(Configuración perfil)
+  I --> J(Cambiar datos)
+  I --> L(Activar notificaciones)
+```

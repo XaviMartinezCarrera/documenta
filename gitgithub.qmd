@@ -1,0 +1,78 @@
+---
+title: "Git-Git Hub"
+---
+
+
+
+![](imagenes/git.png){width=30%}
+
+![](imagenes/github.png){width=30%}
+
+# AUTENTICACIÓN
+* Git config user.name.
+* Git config user.email.
+
+# TRIPLE AUTENTICACIÓN
+* Git Hub.
+* VS Code.
+* Git.
+
+# GIT STATUS
+Muestra el estado del directorio de trabajo y del área del entorno de ensayo.
+
+# GIT INIT
+Configuración ninicial de un repositorio nuevo.
+
+# GIT ADD
+* Subir tus documentos al repositorio local de Git.
+* Subir solo los que me interesan.
+* Cada vez que creo uno nuevo (Git add).
+
+# GIT COMMIT
+Captura una instantánea de los cambios preparados en ese momento del proyecto.
+
+# GIT PUSH
+Subirlo a Git Hub.
+
+# GIT DIFF
+Para ver los cambios que vas haciendo en tu archivo.
+
+# GIT RESTORE
+Para descartar cambios o volver al inicio.
+
+# GIT REVERT
+Para deshacer cambios.
+
+# GIT RESET
+Para restablecer tu estado actual a uno específico.
+
+# GIT LOG
+Para ver los commits.
+
+# GIT SWITCH
+Permite moverse entre ramas.
+
+# GIT BRANCH
+Permite crear una rama nueva.
+
+# GIT CHECKOUT
+Permite desplazarse entre las ramas creadas por Git branch.
+
+# GIT STASH
+Para guardar cosas en borrador.
+
+# GIT BRANCH -R
+Para ver las ramas que tenemos.
+
+# GIT LS-REMOTE
+Lista referencias en un repositorio remoto.
+
+# GIT REMOTE RM
+Elimina una URL remota de tu repositorio.
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+project:
+  type: website
+
+website:
+  title: "Xavi Martínez"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - arquitecturaweb.qmd
+      - frontend.qmd
+      - backend.qmd
+      - gitgithub.qmd
+      - proyectopersonal.qmd
+      - mindset.qmd
+      - vocabulario.qmd      
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

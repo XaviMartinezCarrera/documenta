@@ -1,0 +1,81 @@
+---
+title: "Arquitectura Web"
+---
+
+# Entorno Cliente - Servidor
+
+![](imagenes/ecs.png){width=60%}
+
+|
+
+# MVC Modelo Vista Controlador
+
+![](imagenes/mvc.png){width=60%}
+
+* **Model**
+    + Almacena y administra datos.
+    + Base de datos y respectiva capa de acceso a datos.
+
+|
+
+* **View**
+    + Interfaz gráfica del usuario.
+    + Contiene todas las funcionalidades que interactúan con el usuario.
+    + Representación visual de la información.
+    
+|
+
+* **Controller**
+    + Conecta el modelo y la vista según sea necesario.
+    + Se encarga de traducir lo que el usuario haya introducido a través de la vista.
+    + Aplica la lógica de negocios necesaria.
+    + Actualiza o devuelve la información desde el modelo.
+
+
+# Lifecycle Software
+
+1. Planning.
+2. Design.
+3. Test.
+4. Develop.
+5. Maintain.
+6. Deploy.
+
+# Proceso de creación de una app
+
+WHY | WHAT | FOR WHAT | HOW
+
+* **Project**
+    + Research.
+    + Document.
+    + Mock up.
+    + Tree-Folder.
+    + Version (Tech Stack).
+    + GIT.
+
+|
+
+* **Domains (SRC)**
+    + Understand needs.
+    + DDD.
+    + Escalabilidad (el código crece).
+    + Creatividad.
+
+|
+
+* **UML / Pseudocode**
+    + Sandbox.
+    + Mermaid.
+    + Diagrama temporal.
+    + Diagrama de clases.
+    + Flux.
+
+|
+
+* **Code**
+    + TDD.
+    + Development / Production.
+
+    
+    
+
