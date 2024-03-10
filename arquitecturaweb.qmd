@@ -76,6 +76,22 @@ WHY | WHAT | FOR WHAT | HOW
     + TDD.
     + Development / Production.
 
+|
+
+# Axios
+
+* En Axios se programan las operaciones **CRUD** (Create - Read - Update - Delete).
+* Axios importa los datos de la API Rest.
+
+|
+
+# Parseo
+
+* Texto > **Hook** > Objeto Literal.
+* Objeto LiteraL > **Axios** > JSON.
+* JSON > **Controller** > Java Objects.
+* Java Objects > **JPA** > Data SQL.
+
     
     
 

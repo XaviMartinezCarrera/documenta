@@ -131,6 +131,8 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#autenticación" id="toc-autenticación" class="nav-link active" data-scroll-target="#autenticación">AUTENTICACIÓN</a></li>
   <li><a href="#triple-autenticación" id="toc-triple-autenticación" class="nav-link" data-scroll-target="#triple-autenticación">TRIPLE AUTENTICACIÓN</a></li>
+  <li><a href="#git-config----global-user.name" id="toc-git-config----global-user.name" class="nav-link" data-scroll-target="#git-config----global-user.name">GIT CONFIG - -GLOBAL USER.NAME</a></li>
+  <li><a href="#git-config----global-user.email" id="toc-git-config----global-user.email" class="nav-link" data-scroll-target="#git-config----global-user.email">GIT CONFIG - -GLOBAL USER.EMAIL</a></li>
   <li><a href="#git-status" id="toc-git-status" class="nav-link" data-scroll-target="#git-status">GIT STATUS</a></li>
   <li><a href="#git-init" id="toc-git-init" class="nav-link" data-scroll-target="#git-init">GIT INIT</a></li>
   <li><a href="#git-add" id="toc-git-add" class="nav-link" data-scroll-target="#git-add">GIT ADD</a></li>
@@ -143,11 +145,15 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#git-log" id="toc-git-log" class="nav-link" data-scroll-target="#git-log">GIT LOG</a></li>
   <li><a href="#git-switch" id="toc-git-switch" class="nav-link" data-scroll-target="#git-switch">GIT SWITCH</a></li>
   <li><a href="#git-branch" id="toc-git-branch" class="nav-link" data-scroll-target="#git-branch">GIT BRANCH</a></li>
+  <li><a href="#git-branch--r" id="toc-git-branch--r" class="nav-link" data-scroll-target="#git-branch--r">GIT BRANCH -R</a></li>
+  <li><a href="#git-branch--d" id="toc-git-branch--d" class="nav-link" data-scroll-target="#git-branch--d">GIT BRANCH -D</a></li>
   <li><a href="#git-checkout" id="toc-git-checkout" class="nav-link" data-scroll-target="#git-checkout">GIT CHECKOUT</a></li>
   <li><a href="#git-stash" id="toc-git-stash" class="nav-link" data-scroll-target="#git-stash">GIT STASH</a></li>
-  <li><a href="#git-branch--r" id="toc-git-branch--r" class="nav-link" data-scroll-target="#git-branch--r">GIT BRANCH -R</a></li>
+  <li><a href="#git-remote--v" id="toc-git-remote--v" class="nav-link" data-scroll-target="#git-remote--v">GIT REMOTE -V</a></li>
+  <li><a href="#git-remote-add-origin" id="toc-git-remote-add-origin" class="nav-link" data-scroll-target="#git-remote-add-origin">GIT REMOTE ADD ORIGIN</a></li>
   <li><a href="#git-ls-remote" id="toc-git-ls-remote" class="nav-link" data-scroll-target="#git-ls-remote">GIT LS-REMOTE</a></li>
   <li><a href="#git-remote-rm" id="toc-git-remote-rm" class="nav-link" data-scroll-target="#git-remote-rm">GIT REMOTE RM</a></li>
+  <li><a href="#git-pull" id="toc-git-pull" class="nav-link" data-scroll-target="#git-pull">GIT PULL</a></li>
   </ul>
 </nav>
     </div>
@@ -188,6 +194,14 @@ ul.task-list li input[type="checkbox"] {
 <li>Git.</li>
 </ul>
 </section>
+<section id="git-config----global-user.name" class="level1">
+<h1>GIT CONFIG - -GLOBAL USER.NAME</h1>
+<p>Para configurar tu nombre de usuario a nivel global.</p>
+</section>
+<section id="git-config----global-user.email" class="level1">
+<h1>GIT CONFIG - -GLOBAL USER.EMAIL</h1>
+<p>Para configurar tu email a nivel global.</p>
+</section>
 <section id="git-status" class="level1">
 <h1>GIT STATUS</h1>
 <p>Muestra el estado del directorio de trabajo y del área del entorno de ensayo.</p>
@@ -214,7 +228,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="git-diff" class="level1">
 <h1>GIT DIFF</h1>
-<p>Para ver los cambios que vas haciendo en tu archivo.</p>
+<p>Para ver los cambios que vas haciendo en tu archivo. Compara dos documentos y observa las diferencias.</p>
 </section>
 <section id="git-restore" class="level1">
 <h1>GIT RESTORE</h1>
@@ -240,6 +254,14 @@ ul.task-list li input[type="checkbox"] {
 <h1>GIT BRANCH</h1>
 <p>Permite crear una rama nueva.</p>
 </section>
+<section id="git-branch--r" class="level1">
+<h1>GIT BRANCH -R</h1>
+<p>Para ver las ramas que tenemos.</p>
+</section>
+<section id="git-branch--d" class="level1">
+<h1>GIT BRANCH -D</h1>
+<p>Permite eliminar una rama.</p>
+</section>
 <section id="git-checkout" class="level1">
 <h1>GIT CHECKOUT</h1>
 <p>Permite desplazarse entre las ramas creadas por Git branch.</p>
@@ -248,9 +270,13 @@ ul.task-list li input[type="checkbox"] {
 <h1>GIT STASH</h1>
 <p>Para guardar cosas en borrador.</p>
 </section>
-<section id="git-branch--r" class="level1">
-<h1>GIT BRANCH -R</h1>
-<p>Para ver las ramas que tenemos.</p>
+<section id="git-remote--v" class="level1">
+<h1>GIT REMOTE -V</h1>
+<p>Para ver todos los repositorios remotos.</p>
+</section>
+<section id="git-remote-add-origin" class="level1">
+<h1>GIT REMOTE ADD ORIGIN</h1>
+<p>Para conectar el repositorio local a un servidor remoto.</p>
 </section>
 <section id="git-ls-remote" class="level1">
 <h1>GIT LS-REMOTE</h1>
@@ -259,6 +285,10 @@ ul.task-list li input[type="checkbox"] {
 <section id="git-remote-rm" class="level1">
 <h1>GIT REMOTE RM</h1>
 <p>Elimina una URL remota de tu repositorio.</p>
+</section>
+<section id="git-pull" class="level1">
+<h1>GIT PULL</h1>
+<p>Fusiona todos los cambios que se han hecho en el repositorio remoto con el directorio de trabajo local.</p>
 
 
 </section>

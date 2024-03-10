@@ -62,7 +62,7 @@ Estilos     |     Colores
 
 * Pseudoelementos.
 
-* W3-CSS, Bootstrap, SASS.
+* W3-CSS, Bootstrap, SASS, Semantic, Material, Tailwind.
 
 ----------------------
 
@@ -90,9 +90,15 @@ Interactividad
 
 Librería de Javascript   |   Interfaces de usuario
 
-* React es una biblioteca Javascript de código abierto diseñada para crear interfaces de usuario con el objetivo de facilitar el desarrollo de aplicaciones en una sola página. Es mantenido por Facebook y la comunidad de software libre. En el proyecto hay más de mil desarrolladores libres.
+|
+|
 
-* Principales características:
+* **React** es una biblioteca Javascript de código abierto diseñada para crear interfaces de usuario con el objetivo de facilitar el desarrollo de aplicaciones en una sola página. Es mantenido por Facebook y la comunidad de software libre. En el proyecto hay más de mil desarrolladores libres.
+
+|
+|
+
+* **Principales características**:
     + SPA (Single Page Application)
     + Lenguaje orientado a componentes.
     + Componentes puros.
@@ -105,19 +111,28 @@ Librería de Javascript   |   Interfaces de usuario
     + Routing.
     + Hooks.
 
-* Crear un Proyecto React: 
+|
+|
+
+* **Crear** un Proyecto React: 
 
 ```javascript
 npx create-react-app my-app
 ```
 
-* Iniciar un Proyecto React: 
+|
+|
+
+* **Iniciar** un Proyecto React: 
 
 ```javascript
 npm start
 ```
 
-* Estructura de un Proyecto React (Dominios):
+|
+|
+
+* **Estructura** de un Proyecto React (Dominios):
     + Assets.
     + Layouts.
     + Components.
@@ -129,8 +144,16 @@ npm start
     + Utils.
 
 |
+|
 
-* Estructura básica de un Componente React:
+* **React Cycle**:
+
+Trigger Phase (User clicks) --- Render Phase (Calls component) --- Commit Phase (Modifies the DOM)
+
+|
+|
+
+* Estructura básica de un **Componente React**:
 
 ```javascript
 import React from 'react';
@@ -147,8 +170,37 @@ function MiComponente(props) {
 
 export default MiComponente;
 ```
+|
+|
 
+* **Spread Operator**:
+    + Se usa para no tener que copiar cada propiedad por separado.
 
+```javascript
+set person ({
+  ...person, (copy the old fields)
+  firstName: e.target.value (but override this one)
+});
+```
+|
+|
+
+* **Hooks**:
+    + **useState**: función que crea internamente una variable donde podremos almacenar el estado de nuetro componente.
+
+    + **useEffect**: se encarga de operaciones colaterales. Ej: conectarse por detrás a un backend.
+      1. Se ejecuta para cada render (Sync All Data).
+      2. Sincroniza con State & Props.
+      3. Sincroniza con No Data.
+
+    + **useMemo**: permite guardar en caché el resultado de un cálculo entre renderizados.
+
+    + **useContext**: permite compartir información entre componentes de manera fácil y sencilla.
+      1. Crear > Create.
+      2. Importar / Exportar > Provider.
+      3. Inyectar > Wrapper.
+      4. Utilizar > useContext.
+      
 ----------------------
 
 |

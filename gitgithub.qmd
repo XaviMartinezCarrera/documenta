@@ -17,6 +17,12 @@ title: "Git-Git Hub"
 * VS Code.
 * Git.
 
+# GIT CONFIG - -GLOBAL USER.NAME
+Para configurar tu nombre de usuario a nivel global.
+
+# GIT CONFIG - -GLOBAL USER.EMAIL
+Para configurar tu email a nivel global.
+
 # GIT STATUS
 Muestra el estado del directorio de trabajo y del área del entorno de ensayo.
 
@@ -35,7 +41,7 @@ Captura una instantánea de los cambios preparados en ese momento del proyecto.
 Subirlo a Git Hub.
 
 # GIT DIFF
-Para ver los cambios que vas haciendo en tu archivo.
+Para ver los cambios que vas haciendo en tu archivo. Compara dos documentos y observa las diferencias.
 
 # GIT RESTORE
 Para descartar cambios o volver al inicio.
@@ -55,14 +61,23 @@ Permite moverse entre ramas.
 # GIT BRANCH
 Permite crear una rama nueva.
 
+# GIT BRANCH -R
+Para ver las ramas que tenemos.
+
+# GIT BRANCH -D
+Permite eliminar una rama.
+
 # GIT CHECKOUT
 Permite desplazarse entre las ramas creadas por Git branch.
 
 # GIT STASH
 Para guardar cosas en borrador.
 
-# GIT BRANCH -R
-Para ver las ramas que tenemos.
+# GIT REMOTE -V
+Para ver todos los repositorios remotos.
+
+# GIT REMOTE ADD ORIGIN
+Para conectar el repositorio local a un servidor remoto.
 
 # GIT LS-REMOTE
 Lista referencias en un repositorio remoto.
@@ -70,7 +85,8 @@ Lista referencias en un repositorio remoto.
 # GIT REMOTE RM
 Elimina una URL remota de tu repositorio.
 
-
+# GIT PULL
+Fusiona todos los cambios que se han hecho en el repositorio remoto con el directorio de trabajo local.
 
 
 

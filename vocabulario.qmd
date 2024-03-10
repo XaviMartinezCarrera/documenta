@@ -69,6 +69,10 @@ title: "Vocabulario"
 | WRAPPER | Programas o códigos que rodean otros componentes de programa.|
 | DEUDA TÉCNICA | Trabajo de producto diferido, a menudo como consecuencia de decisiones tomadas por los desarrolladores para favorecer la rapidez en detrimento de la calidad.|
 | JENKINS | Herramienta para crear pipelines.|
+| CHIPS | Botones que sirven para filtrar.|
+| JWT | JSON Web Token.|
+| OAUTH | Forma de autenticación.|
+| ONE-LINER | Práctica de código en la que realizamos alguna función en una sola línea de código.|
 
 
 : {.striped .hover}

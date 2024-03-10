@@ -223,7 +223,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul></li>
 <li><p>Pseudoclases.</p></li>
 <li><p>Pseudoelementos.</p></li>
-<li><p>W3-CSS, Bootstrap, SASS.</p></li>
+<li><p>W3-CSS, Bootstrap, SASS, Semantic, Material, Tailwind.</p></li>
 </ul>
 <hr>
 <p><br>
@@ -239,9 +239,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </p>
 <p><img src="imagenes/react.jpg" class="img-fluid" style="width:25.0%"></p>
 <p>Librería de Javascript | Interfaces de usuario</p>
+<p><br>
+</p>
 <ul>
-<li><p>React es una biblioteca Javascript de código abierto diseñada para crear interfaces de usuario con el objetivo de facilitar el desarrollo de aplicaciones en una sola página. Es mantenido por Facebook y la comunidad de software libre. En el proyecto hay más de mil desarrolladores libres.</p></li>
-<li><p>Principales características:</p>
+<li><strong>React</strong> es una biblioteca Javascript de código abierto diseñada para crear interfaces de usuario con el objetivo de facilitar el desarrollo de aplicaciones en una sola página. Es mantenido por Facebook y la comunidad de software libre. En el proyecto hay más de mil desarrolladores libres.</li>
+</ul>
+<p><br>
+</p>
+<ul>
+<li><strong>Principales características</strong>:
 <ul>
 <li>SPA (Single Page Application)</li>
 <li>Lenguaje orientado a componentes.</li>
@@ -255,15 +261,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Routing.</li>
 <li>Hooks.</li>
 </ul></li>
-<li><p>Crear un Proyecto React:</p></li>
+</ul>
+<p><br>
+</p>
+<ul>
+<li><strong>Crear</strong> un Proyecto React:</li>
 </ul>
 <div class="sourceCode" id="cb1"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>npx create<span class="op">-</span>react<span class="op">-</span>app my<span class="op">-</span>app</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><br>
+</p>
 <ul>
-<li>Iniciar un Proyecto React:</li>
+<li><strong>Iniciar</strong> un Proyecto React:</li>
 </ul>
 <div class="sourceCode" id="cb2"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>npm start</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><br>
+</p>
 <ul>
-<li>Estructura de un Proyecto React (Dominios):
+<li><strong>Estructura</strong> de un Proyecto React (Dominios):
 <ul>
 <li>Assets.</li>
 <li>Layouts.</li>
@@ -276,8 +290,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Utils.</li>
 </ul></li>
 </ul>
+<p><br>
+</p>
 <ul>
-<li>Estructura básica de un Componente React:</li>
+<li><strong>React Cycle</strong>:</li>
+</ul>
+<p>Trigger Phase (User clicks) — Render Phase (Calls component) — Commit Phase (Modifies the DOM)</p>
+<p><br>
+</p>
+<ul>
+<li>Estructura básica de un <strong>Componente React</strong>:</li>
 </ul>
 <div class="sourceCode" id="cb3"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> React <span class="im">from</span> <span class="st">'react'</span><span class="op">;</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -292,6 +314,40 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>}</span>
 <span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="im">export</span> <span class="im">default</span> MiComponente<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><br>
+</p>
+<ul>
+<li><strong>Spread Operator</strong>:
+<ul>
+<li>Se usa para no tener que copiar cada propiedad por separado.</li>
+</ul></li>
+</ul>
+<div class="sourceCode" id="cb4"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">set</span> <span class="fu">person</span> ({</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="op">...</span>person<span class="op">,</span> (copy the old fields)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">firstName</span><span class="op">:</span> e<span class="op">.</span><span class="at">target</span><span class="op">.</span><span class="fu">value</span> (but override <span class="kw">this</span> one)</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><br>
+</p>
+<ul>
+<li><strong>Hooks</strong>:
+<ul>
+<li><p><strong>useState</strong>: función que crea internamente una variable donde podremos almacenar el estado de nuetro componente.</p></li>
+<li><p><strong>useEffect</strong>: se encarga de operaciones colaterales. Ej: conectarse por detrás a un backend.</p>
+<ol type="1">
+<li>Se ejecuta para cada render (Sync All Data).</li>
+<li>Sincroniza con State &amp; Props.</li>
+<li>Sincroniza con No Data.</li>
+</ol></li>
+<li><p><strong>useMemo</strong>: permite guardar en caché el resultado de un cálculo entre renderizados.</p></li>
+<li><p><strong>useContext</strong>: permite compartir información entre componentes de manera fácil y sencilla.</p>
+<ol type="1">
+<li>Crear &gt; Create.</li>
+<li>Importar / Exportar &gt; Provider.</li>
+<li>Inyectar &gt; Wrapper.</li>
+<li>Utilizar &gt; useContext.</li>
+</ol></li>
+</ul></li>
+</ul>
 <hr>
 <p><br>
 </p>
