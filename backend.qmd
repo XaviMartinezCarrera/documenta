@@ -74,21 +74,128 @@ public class MiClase {
 |
 |
 
-
 ![](imagenes/springboot.png){width=40%}
 
-Framework
+Framework     |     Inyección de dependencia
 
+|
+|
 
-* Java Spring Boot (Spring Boot) es una herramienta que acelera y simplifica el desarrollo de microservicios y aplicaciones web con Spring Framework.
+* **Java Spring Boot** (Spring Boot) es una herramienta que acelera y simplifica el desarrollo de microservicios y aplicaciones web con Spring Framework.
 
-* Funciones principales:
+|
+|
+
+* **Funciones principales**:
     + Configuración automática.
     + Enfoque de configuración obstinado.
     + Capacidad de crear aplicaciones autónomas.
+
+|
+|
+
+* Para comenzar un **poyecto**:
+
+    start.spring.io
+
+|
+|
+
+* Utiliza **anotaciones**:
+    + (@)Autowired.
+    + (@)RequestMapping.
+    + (@)Controller.
+    + (@)RestControlle
+
+|
+|
+
+* **Proceso**:
+    1. Petición HTTP ---> (@)RestController.
+    2. (@)RestController ---> (@)Service.
+    3. (@)Service devuelve un array a (@)RestController.
+    4. Array convertido en JSON.
+    5. Publica la URL.
+
+|
+|
+
+* **Ejemplo** de proyecto inicial Spring Boot:
+
+```java
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HolaControlador {
+
+    @GetMapping("/hola")
+    public String hola() {
+        return "¡Hola, mundo!";
+    }
+}
+```
+
+|
+|
+
+* **Thymeleaf**:
+    + Instalar dependencia de Thymeleaf.
+    + Permite insertar código Java en HTML.
+    + Permite crear plantillas.
+    + Se puede crear un Front con Thymeleaf y CSS.
+
+```java
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Proyecto Thymeleaf</title>
+</head>
+<body>
+    <h1>Bienvenido a mi aplicación con Thymeleaf</h1>
+    <p>Este es un ejemplo básico de uso de Thymeleaf en Spring Boot.</p>
+    <p>La fecha y hora actual es: <span th:text="${#dates.format(#dates.now(), 'dd/MM/yyyy HH:mm:ss')}"></span></p>
+</body>
+</html>
+```
+
+|
+|
+
+* **Funciones** de las anotaciones:
+
+    + **(@)RestController** (ORDENA)
+        1. Gestiona el ciclo Request-Response.
+        2. Operaciones CRUD.
+        3. Devolverá un JSON.
+    + **(@)Controller**
+        1. Renderiza webs (Thymeleaf).
+        2. SSR (Service Side Rendering).
+        3. Devolverá un JSON.
+    + **(@)Sercvice** (TRABAJA)
+        1. Hace el trabajo real.
+        2. Implementa business logic.
+        3. Trabaja para el (@)RestController.
+    + **(@)Repository** (GUARDA)
+        1. Busca los datos en la DB.
+        2. Le pasa los datos a (@)Service.
+
+|
+|
+
+* **Postman**:
+
+    + Web para crear APIs.
+    + Permite hacer peticiones al server.
+    + Se pone la URL del Spring Boot.
+    + Se elige la petición en el desplegable.
+    + Clicar 'Send'.
+    + Hay que configurarlo (Query Params).
+
 
 ----------------------
 
 |
 |
+
 

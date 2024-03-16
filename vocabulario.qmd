@@ -73,6 +73,13 @@ title: "Vocabulario"
 | JWT | JSON Web Token.|
 | OAUTH | Forma de autenticación.|
 | ONE-LINER | Práctica de código en la que realizamos alguna función en una sola línea de código.|
+| SSR | Servide Side Rendering.|
+| CSR | Client Side Rendering.|
+| AOP | Aspect-Oriented Programming.|
+| ORM | Object-Relationla Mapping.|
+| DDL | Data Definition Language.|
+| SQL | Structured Query Language.|
+| CURL | Para realizar una petición a un servidor (IP).|
 
 
 : {.striped .hover}

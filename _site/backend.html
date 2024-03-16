@@ -280,14 +280,130 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><br>
 </p>
 <p><img src="imagenes/springboot.png" class="img-fluid" style="width:40.0%"></p>
-<p>Framework</p>
+<p>Framework | Inyección de dependencia</p>
+<p><br>
+</p>
 <ul>
-<li><p>Java Spring Boot (Spring Boot) es una herramienta que acelera y simplifica el desarrollo de microservicios y aplicaciones web con Spring Framework.</p></li>
-<li><p>Funciones principales:</p>
+<li><strong>Java Spring Boot</strong> (Spring Boot) es una herramienta que acelera y simplifica el desarrollo de microservicios y aplicaciones web con Spring Framework.</li>
+</ul>
+<p><br>
+</p>
+<ul>
+<li><strong>Funciones principales</strong>:
 <ul>
 <li>Configuración automática.</li>
 <li>Enfoque de configuración obstinado.</li>
 <li>Capacidad de crear aplicaciones autónomas.</li>
+</ul></li>
+</ul>
+<p><br>
+</p>
+<ul>
+<li><p>Para comenzar un <strong>poyecto</strong>:</p>
+<p>start.spring.io</p></li>
+</ul>
+<p><br>
+</p>
+<ul>
+<li>Utiliza <strong>anotaciones</strong>:
+<ul>
+<li>(@)Autowired.</li>
+<li>(@)RequestMapping.</li>
+<li>(@)Controller.</li>
+<li>(@)RestControlle</li>
+</ul></li>
+</ul>
+<p><br>
+</p>
+<ul>
+<li><strong>Proceso</strong>:
+<ol type="1">
+<li>Petición HTTP —&gt; (@)RestController.</li>
+<li>(@)RestController —&gt; (@)Service.</li>
+<li>(@)Service devuelve un array a (@)RestController.</li>
+<li>Array convertido en JSON.</li>
+<li>Publica la URL.</li>
+</ol></li>
+</ul>
+<p><br>
+</p>
+<ul>
+<li><strong>Ejemplo</strong> de proyecto inicial Spring Boot:</li>
+</ul>
+<div class="sourceCode" id="cb2"><pre class="sourceCode java code-with-copy"><code class="sourceCode java"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">import</span> <span class="im">org</span><span class="op">.</span><span class="im">springframework</span><span class="op">.</span><span class="im">web</span><span class="op">.</span><span class="im">bind</span><span class="op">.</span><span class="im">annotation</span><span class="op">.</span><span class="im">GetMapping</span><span class="op">;</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="kw">import</span> <span class="im">org</span><span class="op">.</span><span class="im">springframework</span><span class="op">.</span><span class="im">web</span><span class="op">.</span><span class="im">bind</span><span class="op">.</span><span class="im">annotation</span><span class="op">.</span><span class="im">RestController</span><span class="op">;</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="at">@RestController</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="kw">public</span> <span class="kw">class</span> HolaControlador <span class="op">{</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">@GetMapping</span><span class="op">(</span><span class="st">"/hola"</span><span class="op">)</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    <span class="kw">public</span> <span class="bu">String</span> <span class="fu">hola</span><span class="op">()</span> <span class="op">{</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="st">"¡Hola, mundo!"</span><span class="op">;</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><br>
+</p>
+<ul>
+<li><strong>Thymeleaf</strong>:
+<ul>
+<li>Instalar dependencia de Thymeleaf.</li>
+<li>Permite insertar código Java en HTML.</li>
+<li>Permite crear plantillas.</li>
+<li>Se puede crear un Front con Thymeleaf y CSS.</li>
+</ul></li>
+</ul>
+<div class="sourceCode" id="cb3"><pre class="sourceCode java code-with-copy"><code class="sourceCode java"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;!</span>DOCTYPE html<span class="op">&gt;</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;</span>html xmlns<span class="op">:</span>th<span class="op">=</span><span class="st">"http://www.thymeleaf.org"</span><span class="op">&gt;</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;</span>head<span class="op">&gt;</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    <span class="op">&lt;</span>title<span class="op">&gt;</span>Proyecto Thymeleaf<span class="op">&lt;/</span>title<span class="op">&gt;</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;/</span>head<span class="op">&gt;</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;</span>body<span class="op">&gt;</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>    <span class="op">&lt;</span>h1<span class="op">&gt;</span>Bienvenido a mi aplicación con Thymeleaf<span class="op">&lt;/</span>h1<span class="op">&gt;</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    <span class="op">&lt;</span>p<span class="op">&gt;</span>Este es un ejemplo básico de uso de Thymeleaf en <span class="bu">Spring</span> Boot<span class="op">.&lt;/</span>p<span class="op">&gt;</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>    <span class="op">&lt;</span>p<span class="op">&gt;</span>La fecha y hora actual es<span class="op">:</span> <span class="op">&lt;</span>span th<span class="op">:</span>text<span class="op">=</span><span class="st">"${#dates.format(#dates.now(), 'dd/MM/yyyy HH:mm:ss')}"</span><span class="op">&gt;&lt;/</span>span<span class="op">&gt;&lt;/</span>p<span class="op">&gt;</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;/</span>body<span class="op">&gt;</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;/</span>html<span class="op">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><br>
+</p>
+<ul>
+<li><p><strong>Funciones</strong> de las anotaciones:</p>
+<ul>
+<li><strong>(@)RestController</strong> (ORDENA)
+<ol type="1">
+<li>Gestiona el ciclo Request-Response.</li>
+<li>Operaciones CRUD.</li>
+<li>Devolverá un JSON.</li>
+</ol></li>
+<li><strong>(@)Controller</strong>
+<ol type="1">
+<li>Renderiza webs (Thymeleaf).</li>
+<li>SSR (Service Side Rendering).</li>
+<li>Devolverá un JSON.</li>
+</ol></li>
+<li><strong>(@)Sercvice</strong> (TRABAJA)
+<ol type="1">
+<li>Hace el trabajo real.</li>
+<li>Implementa business logic.</li>
+<li>Trabaja para el (@)RestController.</li>
+</ol></li>
+<li><strong>(@)Repository</strong> (GUARDA)
+<ol type="1">
+<li>Busca los datos en la DB.</li>
+<li>Le pasa los datos a (@)Service.</li>
+</ol></li>
+</ul></li>
+</ul>
+<p><br>
+</p>
+<ul>
+<li><p><strong>Postman</strong>:</p>
+<ul>
+<li>Web para crear APIs.</li>
+<li>Permite hacer peticiones al server.</li>
+<li>Se pone la URL del Spring Boot.</li>
+<li>Se elige la petición en el desplegable.</li>
+<li>Clicar ‘Send’.</li>
+<li>Hay que configurarlo (Query Params).</li>
 </ul></li>
 </ul>
 <hr>
