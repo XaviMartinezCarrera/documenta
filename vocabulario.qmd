@@ -84,7 +84,7 @@ title: "Vocabulario"
 | TSX | Extensión específica de Typescript.|
 | JPQL | Java Persistence Query Language.|
 | FK | Foreign Key.|
-| WEEBHOOK | Devolución de llamadas basada en el protocolo HTTP para que dos APIs se comuniquen.|
+| WEBHOOK | Devolución de llamadas basada en el protocolo HTTP para que dos APIs se comuniquen.|
 | LOW CODE | Poco código.|
 | NO CODE | No código.|
 | BRAVE | Uno de los navegadores más seguros del mercado.|
