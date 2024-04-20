@@ -76,10 +76,19 @@ title: "Vocabulario"
 | SSR | Servide Side Rendering.|
 | CSR | Client Side Rendering.|
 | AOP | Aspect-Oriented Programming.|
-| ORM | Object-Relationla Mapping.|
+| ORM | Object-Relational Mapping.|
 | DDL | Data Definition Language.|
 | SQL | Structured Query Language.|
 | CURL | Para realizar una petición a un servidor (IP).|
+| DOCKER | Sistema operativo para contenedores.|
+| TSX | Extensión específica de Typescript.|
+| JPQL | Java Persistence Query Language.|
+| FK | Foreign Key.|
+| WEEBHOOK | Devolución de llamadas basada en el protocolo HTTP para que dos APIs se comuniquen.|
+| LOW CODE | Poco código.|
+| NO CODE | No código.|
+| BRAVE | Uno de los navegadores más seguros del mercado.|
+| HOC | Higher Order Component.|
 
 
 : {.striped .hover}

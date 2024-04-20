@@ -119,6 +119,21 @@ Librería de Javascript   |   Interfaces de usuario
 ```javascript
 npx create-react-app my-app
 ```
+```javascript
+Con Vite
+```
+```javascript
+Comprar un template
+```
+```javascript
+next.js / Remix / Astro
+```
+```javascript
+Builder Blocks / Builder.io / Retool.com
+```
+```javascript
+AI
+```
 
 |
 |
@@ -127,6 +142,9 @@ npx create-react-app my-app
 
 ```javascript
 npm start
+```
+```javascript
+npm run dev (con Vite)
 ```
 
 |
@@ -200,6 +218,17 @@ set person ({
       2. Importar / Exportar > Provider.
       3. Inyectar > Wrapper.
       4. Utilizar > useContext.
+
+    + **useReducer**: permite agregar un reducer al componente.
+      1. Reduce la complejidad a una función simple.
+      2. Afecta a una sola componente, no a todo el proyecto.
+      3. useState vs useReducer: a veces tendremos este dilema.
+      4. Recibe dos parámetros (estado y operaciones (CRUD)).
+      5. Dispatch: es el trigger del useReducer.
+      6. Dispatch > Handle > Hook > Reducer > Case > Axios > API Rest.
+      7. Se puede usar en: Carritos, Login, Formularios, Paginación, Fetching Data, To Do, Counter, Authentication, Messenger, Transferencia Bancaria.
+
+    + **useRef**: permite referenciar un valor que no es necesario para el renderizado.
       
 ----------------------
 

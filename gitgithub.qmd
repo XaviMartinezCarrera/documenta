@@ -86,7 +86,7 @@ Lista referencias en un repositorio remoto.
 Elimina una URL remota de tu repositorio.
 
 # GIT PULL
-Fusiona todos los cambios que se han hecho en el repositorio remoto con el directorio de trabajo local.
+Fusiona todos los cambios que se han hecho en el repositorio remoto con el directorio de trabajo local (GIT FETCH + GIT MERGE).
 
 
 

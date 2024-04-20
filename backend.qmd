@@ -172,7 +172,7 @@ public class HolaControlador {
         1. Renderiza webs (Thymeleaf).
         2. SSR (Service Side Rendering).
         3. Devolverá un JSON.
-    + **(@)Sercvice** (TRABAJA)
+    + **(@)Service** (TRABAJA)
         1. Hace el trabajo real.
         2. Implementa business logic.
         3. Trabaja para el (@)RestController.
@@ -191,6 +191,18 @@ public class HolaControlador {
     + Se elige la petición en el desplegable.
     + Clicar 'Send'.
     + Hay que configurarlo (Query Params).
+
+* **JPA**:
+
+    + Se encarga de coger el JAVA.
+    + Llevarlo a la DB.
+    + Y traerlo de vuelta.
+
+* **Queries**:
+
+    + Derivadas: No hace falta escribir la query.
+    + Named: Consultas escritas.
+    + Native: Ejecutar el código SQL.
 
 
 ----------------------
